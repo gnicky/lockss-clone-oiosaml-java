@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WPFClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="LocalSTSUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:8080/sts/TokenService</Value>
+    </Setting>
+    <Setting Name="STSUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:8080/sts/TokenService</Value>
+    </Setting>
+    <Setting Name="WSUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://csky-pc/test/Service1.svc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

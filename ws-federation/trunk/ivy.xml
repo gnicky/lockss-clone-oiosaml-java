@@ -1,0 +1,17 @@
+<ivy-module version="1.0">
+    <info module="oiosaml-wsfed" organisation="dk.itst.oiosaml" status="integration"/>
+    <configurations>
+      <conf name="dist"/>
+      <conf name="build" extends="dist"/>
+      <conf name="test" extends="build"/>
+    </configurations>
+    <dependencies>
+        <dependency org="dk.itst.oiosaml" name="oiosaml.java" rev="latest.integration" conf="*->@" />
+        <dependency org="dk.itst.oiosaml" name="oiosaml-trust" rev="latest.integration" conf="*->@" />
+        
+        <dependency org="junit" name="junit" rev="4.6" conf="test,build->default" /> 
+        <dependency org="org.mockito" name="mockito-all" rev="1.7" conf="test,build->default" />
+        <dependency org="nekohtml" name="nekohtml" rev="1.9.6.2" conf="test,build->default" />
+    </dependencies>
+</ivy-module>
+
